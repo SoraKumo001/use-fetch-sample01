@@ -1,9 +1,9 @@
 import React from 'react';
-import { Weather } from '../../components/Weather';
-import { useFetch } from '@react-liblary/use-fetch';
-import { WeatherType } from '../../types/weatherType';
-import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useFetch } from '@react-liblary/use-fetch';
+import { Weather } from '../../components/Weather';
+import { WeatherType } from '../../types/weatherType';
 
 export const Page = () => {
   const router = useRouter();

@@ -1,9 +1,9 @@
 import { AppContext, AppProps } from 'next/app';
-import { createCache, getDataFromTree, CacheType } from '@react-liblary/use-fetch';
+import { CachesType, createCache, getDataFromTree } from '@react-liblary/use-fetch';
 
 const IS_SERVER = !process.browser;
 
-const App = (props: AppProps & { cache: CacheType }) => {
+const App = (props: AppProps & { cache: CachesType }) => {
   const { Component, cache } = props;
   !IS_SERVER && createCache(cache);
   return <Component />;
