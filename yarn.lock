@@ -191,19 +191,19 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
-"@react-liblary/use-fetch@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@react-liblary/use-fetch/-/use-fetch-1.0.5.tgz#0db7e289fe5369dbb1c584e1f6eca8c9d6243dd0"
-  integrity sha512-vVjwYK4xeCvydBA4deW+DBAR4gJUuAYkBpEOMFWXIQu+7Fp1zgI+k+3WMhxwUPhukREYMEoIblZsCd9PO0P+HQ==
+"@react-libraries/use-fetch@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@react-libraries/use-fetch/-/use-fetch-1.0.0.tgz#ae158caf71bef3813171ef5c1b958f429495c805"
+  integrity sha512-m5if025UlP0Edvk9ng17Egx6IFG5y9OriUsSd7fhstbzp8FltuyPWf3A5S2/LNiTZEoWApqK5fCLBylH0fbS4Q==
   dependencies:
-    "@react-liblary/use-global-state" "*"
+    "@react-libraries/use-global-state" "*"
     react "*"
     react-dom "*"
 
-"@react-liblary/use-global-state@*":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@react-liblary/use-global-state/-/use-global-state-1.0.4.tgz#1414eb9217ef6c8420916400c1af3917ed8698f0"
-  integrity sha512-Q+RQeuotqXq+wKdi4PDJpbEhBi763mHtoRR4xikmCEILrdOPuGpgPo+DMUYc24f/igFfeX7pGo4r9Ej76ki/UQ==
+"@react-libraries/use-global-state@*":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@react-libraries/use-global-state/-/use-global-state-1.0.0.tgz#fb85b8f223e8abbb7619e1cc2df33b6a5e0f40ac"
+  integrity sha512-dO4k6+CzxXWFxt/zN1xsSRQHdt2Q2eS9FrqTAyivmJPR3sEi3Nl0lsukKbHyzJFNff5UwMZG+lh9mM4sVv6Xeg==
   dependencies:
     react "*"
     react-dom "*"

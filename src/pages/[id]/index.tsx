@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useFetch } from '@react-liblary/use-fetch';
+import { useFetch } from '@react-libraries/use-fetch';
 import { Weather } from '../../components/Weather';
 import { WeatherType } from '../../types/weatherType';
 

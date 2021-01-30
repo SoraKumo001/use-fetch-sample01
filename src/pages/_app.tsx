@@ -1,5 +1,5 @@
 import { AppContext, AppProps } from 'next/app';
-import { CachesType, createCache, getDataFromTree } from '@react-liblary/use-fetch';
+import { CachesType, createCache, getDataFromTree } from '@react-libraries/use-fetch';
 
 const IS_SERVER = !process.browser;
 
